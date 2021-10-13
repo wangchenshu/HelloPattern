@@ -16,7 +16,6 @@ public class StrategyPatternDemo {
 
         // 設定雪碧
         drinkMechine.setDrinkProduct(new Sprite());
-        System.out.println("設定雪碧");
         // 倒出雪碧
         drinkMechine.pourOut();
     }
