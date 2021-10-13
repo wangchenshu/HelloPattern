@@ -9,13 +9,13 @@ public class StrategyPatternDemo {
         System.out.println("========");
 
         // 設定紅茶
-        drinkMechine.setDrinkProduct(new BlackTea());
+        drinkMechine.setDrinkProduce(new BlackTea());
         // 倒出紅茶
         drinkMechine.pourOut();
         System.out.println("========");
 
         // 設定雪碧
-        drinkMechine.setDrinkProduct(new Sprite());
+        drinkMechine.setDrinkProduce(new Sprite());
         // 倒出雪碧
         drinkMechine.pourOut();
     }

@@ -11,7 +11,7 @@ public class DrinkMechine {
         this.drinkProduce.pourOut();
     }
 
-    public void setDrinkProduct(DrinkProduce drinkProduce) {
+    public void setDrinkProduce(DrinkProduce drinkProduce) {
         this.drinkProduce = drinkProduce;
     }
 }
